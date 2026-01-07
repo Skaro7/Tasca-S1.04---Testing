@@ -80,10 +80,7 @@ class LibraryBookCollectionTest {
         var sortedBooks = library.getSortedBooks();
         var originalBooksAfter = library.getAllBooks();
 
-        // Check that sorted list is different from original
         assertNotEquals(originalBooksBefore, sortedBooks);
-
-        // Check that original list is unchanged
         assertEquals(originalBooksBefore, originalBooksAfter);
     }
 
