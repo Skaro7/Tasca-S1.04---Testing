@@ -1,4 +1,4 @@
-package Excercise2;
+package Exercise2;
 
 public class CalculoDni {
     public static char obtenerLetraDNI(int dni) {
