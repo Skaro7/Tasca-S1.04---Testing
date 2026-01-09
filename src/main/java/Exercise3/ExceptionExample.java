@@ -1,4 +1,4 @@
-package Excercise3;
+package Exercise3;
 
 public class ExceptionExample {
     public static void accessInvalidArrayIndex(int[] array, int index) {
