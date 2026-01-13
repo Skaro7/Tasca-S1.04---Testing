@@ -1,8 +1,8 @@
 import java.util.*;
 
 public class LibraryBookCollection {
-    private List<String> books = new ArrayList<String>();
-    private Set<String> bookTitles = new HashSet<String>();
+    private List<String> books;
+    private Set<String> bookTitles;
 
     public LibraryBookCollection() {
         books = new ArrayList<>();
