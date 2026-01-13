@@ -18,8 +18,8 @@ class CalculoDniTest {
     }
     static Stream<Arguments> testCalculateValidLetter() {
         return Stream.of(
-                Arguments.of(0, "T"),
-                Arguments.of(1, "R"),
+                Arguments.of(0, 'T'),
+                Arguments.of(1, 'R'),
                 Arguments.of(2, 'W'),
                 Arguments.of(3, 'A'),
                 Arguments.of(4, 'G'),
